@@ -90,6 +90,10 @@ Each entry must be short, verifiable, and useful in real project work. The catal
 
 See the full criteria in [CURATION.md](CURATION.md).
 
+## Local Codex Installation
+
+Local installation is tracked by [LOCAL_CODEX_SKILLS_INSTALLATION_PLAN.md](LOCAL_CODEX_SKILLS_INSTALLATION_PLAN.md). The plan generates a manifest, installs verified Codex-compatible skills into `~/.codex/skills`, and records skipped entries with reasons.
+
 ## How To Contribute
 
 1. Open [SKILLS.md](SKILLS.md) and find the right category.

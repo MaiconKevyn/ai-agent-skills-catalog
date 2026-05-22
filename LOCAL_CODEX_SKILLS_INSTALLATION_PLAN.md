@@ -31,6 +31,23 @@ After implementation:
 - A summary report lists installed, skipped, failed, and watchlist entries.
 - Re-running the installer is safe and idempotent.
 
+## Implementation Result
+
+Executed on 2026-05-22.
+
+| Check | Result |
+|---|---|
+| Catalog entries represented in manifest | 140 |
+| Installable entries | 129 |
+| Installation failures | 0 |
+| Manual-review entries | 1: `frontend-skill`, because the official page resolves but the current OpenAI skills package does not expose that skill name to the installer. |
+| Collection-only entries | 9 |
+| Plugin-optional entries | 1 |
+| Local top-level Codex `SKILL.md` files | 76 |
+| `skills ls -g -a codex --json` entries | 210 |
+| Duplicate top-level local skill directory names | 0 |
+| Backup archive | Created under `~/.codex/backups/`. |
+
 ## Files And Responsibilities
 
 | Path | Action | Responsibility |

@@ -1,0 +1,102 @@
+# Local Codex Install Command Review
+
+Unique install commands: 98
+
+- `install GStack with ./setup --host codex from a local cache`
+- `npx --yes agent-skills-cli install alirezarezvani/claude-skills -g -a codex -y`
+- `npx --yes skills add addyosmani/agent-skills -g -a codex --all --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s canvas-design -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s claude-api -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s doc-coauthoring -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s docx -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s frontend-design -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s mcp-builder -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s pdf -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s pptx -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s skill-creator -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s web-artifacts-builder -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s webapp-testing -y --copy --full-depth`
+- `npx --yes skills add anthropics/skills -g -a codex -s xlsx -y --copy --full-depth`
+- `npx --yes skills add aurite-ai/agent-verifier -g -a codex -s verification -y --copy --full-depth`
+- `npx --yes skills add aurite-ai/agent-verifier -g -a codex -s verify-quality -y --copy --full-depth`
+- `npx --yes skills add aurite-ai/agent-verifier -g -a codex -s verify-security -y --copy --full-depth`
+- `npx --yes skills add belokonm/claude-supercode-skills -g -a codex -s ai-engineer -y --copy --full-depth`
+- `npx --yes skills add belokonm/claude-supercode-skills -g -a codex -s csv-data-wrangler -y --copy --full-depth`
+- `npx --yes skills add belokonm/claude-supercode-skills -g -a codex -s data-analyst -y --copy --full-depth`
+- `npx --yes skills add belokonm/claude-supercode-skills -g -a codex -s data-scientist -y --copy --full-depth`
+- `npx --yes skills add belokonm/claude-supercode-skills -g -a codex -s database-optimizer -y --copy --full-depth`
+- `npx --yes skills add belokonm/claude-supercode-skills -g -a codex -s llm-architect -y --copy --full-depth`
+- `npx --yes skills add belokonm/claude-supercode-skills -g -a codex -s mlops-engineer -y --copy --full-depth`
+- `npx --yes skills add browserbase/skills -g -a codex -s ui-test -y --copy --full-depth`
+- `npx --yes skills add coffeefuelbump/csv-data-summarizer-claude-skill -g -a codex --all --copy --full-depth`
+- `npx --yes skills add deanpeters/Product-Manager-Skills -g -a codex -s prd-development -y --copy --full-depth`
+- `npx --yes skills add deanpeters/Product-Manager-Skills -g -a codex -s prioritization-advisor -y --copy --full-depth`
+- `npx --yes skills add deanpeters/Product-Manager-Skills -g -a codex -s roadmap-planning -y --copy --full-depth`
+- `npx --yes skills add deanpeters/Product-Manager-Skills -g -a codex -s user-story-mapping-workshop -y --copy --full-depth`
+- `npx --yes skills add deanpeters/Product-Manager-Skills -g -a codex -s user-story-splitting -y --copy --full-depth`
+- `npx --yes skills add deanpeters/Product-Manager-Skills -g -a codex -s workshop-facilitation -y --copy --full-depth`
+- `npx --yes skills add lackeyjb/playwright-skill -g -a codex -s playwright-skill -y --copy --full-depth`
+- `npx --yes skills add obra/superpowers -g -a codex --all --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s chatgpt-apps -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s cli-creator -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s figma -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s figma-create-design-system-rules -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s figma-generate-design -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s figma-implement-design -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s gh-address-comments -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s gh-fix-ci -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s hatch-pet -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s jupyter-notebook -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s notion-knowledge-capture -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s notion-research-documentation -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s notion-spec-to-implementation -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s openai-docs -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s pdf -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s playwright -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s playwright-interactive -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s screenshot -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s security-best-practices -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s security-ownership-map -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s security-threat-model -y --copy --full-depth`
+- `npx --yes skills add openai/skills -g -a codex -s yeet -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s define-opportunity-tree -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s define-problem-statement -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s deliver-acceptance-criteria -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s deliver-prd -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s deliver-user-stories -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s foundation-meeting-agenda -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s foundation-meeting-recap -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s foundation-okr-writer -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s iterate-refinement-notes -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s iterate-retrospective -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s measure-dashboard-requirements -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s measure-experiment-design -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s measure-experiment-results -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s measure-instrumentation-spec -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s measure-okr-grader -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s tool-foundation-sprint-basics -y --copy --full-depth`
+- `npx --yes skills add product-on-purpose/pm-skills -g -a codex -s tool-foundation-sprint-brief -y --copy --full-depth`
+- `npx --yes skills add psenger/ai-agent-skills -g -a codex -s agentic-skeleton-dir-structure -y --copy --full-depth`
+- `npx --yes skills add psenger/ai-agent-skills -g -a codex -s arch-lens -y --copy --full-depth`
+- `npx --yes skills add psenger/ai-agent-skills -g -a codex -s create-a-skill -y --copy --full-depth`
+- `npx --yes skills add psenger/ai-agent-skills -g -a codex -s design-critique -y --copy --full-depth`
+- `npx --yes skills add psenger/ai-agent-skills -g -a codex -s git-commit-pr-message -y --copy --full-depth`
+- `npx --yes skills add psenger/ai-agent-skills -g -a codex -s handoff -y --copy --full-depth`
+- `npx --yes skills add psenger/ai-agent-skills -g -a codex -s readme-writer -y --copy --full-depth`
+- `npx --yes skills add psenger/ai-agent-skills -g -a codex -s review-api-design -y --copy --full-depth`
+- `npx --yes skills add psenger/ai-agent-skills -g -a codex -s vault-scribe -y --copy --full-depth`
+- `npx --yes skills add ramziddin/solid-skills -g -a codex -s solid -y --copy --full-depth`
+- `npx --yes skills add shadcn-ui/ui -g -a codex -s shadcn -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s c-review -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s codeql sarif-parsing semgrep -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s designing-workflow-skills -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s differential-review -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s entry-point-analyzer -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s insecure-defaults -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s modern-python -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s mutation-testing -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s property-based-testing -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s semgrep-rule-creator -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s spec-to-code-compliance -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s supply-chain-risk-auditor -y --copy --full-depth`
+- `npx --yes skills add trailofbits/skills -g -a codex -s variant-analysis -y --copy --full-depth`
