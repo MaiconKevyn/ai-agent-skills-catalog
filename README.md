@@ -32,6 +32,7 @@ The problem is fragmentation. Useful skills are spread across official repositor
 |---|---|
 | [SKILLS.md](SKILLS.md) | Main catalog with 140 skills and collections organized by category. |
 | [CURATION.md](CURATION.md) | Criteria for accepting, rejecting, and reviewing skills. |
+| [LOCAL_CODEX_SKILLS_INSTALLATION_PLAN.md](LOCAL_CODEX_SKILLS_INSTALLATION_PLAN.md) | Plan for installing verified catalog skills into local Codex. |
 
 ## Catalog Map
 
