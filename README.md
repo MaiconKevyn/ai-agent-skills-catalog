@@ -32,7 +32,6 @@ The problem is fragmentation. Useful skills are spread across official repositor
 |---|---|
 | [SKILLS.md](SKILLS.md) | Main catalog with 140 skills and collections organized by category. |
 | [CURATION.md](CURATION.md) | Criteria for accepting, rejecting, and reviewing skills. |
-| [LOCAL_CODEX_SKILLS_INSTALLATION_PLAN.md](LOCAL_CODEX_SKILLS_INSTALLATION_PLAN.md) | Plan for installing verified catalog skills into local Codex. |
 
 ## Catalog Map
 
@@ -89,10 +88,6 @@ High-signal ecosystem references, checked on 2026-05-22.
 Each entry must be short, verifiable, and useful in real project work. The catalog avoids dead links, vague descriptions, and generic lists without context. The rule is simple: if a skill does not help an agent or a person execute a recurring task better, it does not belong in the main catalog.
 
 See the full criteria in [CURATION.md](CURATION.md).
-
-## Local Codex Installation
-
-Local installation is tracked by [LOCAL_CODEX_SKILLS_INSTALLATION_PLAN.md](LOCAL_CODEX_SKILLS_INSTALLATION_PLAN.md). The plan generates a manifest, installs verified Codex-compatible skills into `~/.codex/skills`, and records skipped entries with reasons.
 
 ## How To Contribute
 
