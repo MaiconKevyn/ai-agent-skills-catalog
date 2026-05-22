@@ -33,6 +33,7 @@ Este repositório é uma curadoria enxuta para responder rápido:
 | [SKILLS.md](SKILLS.md) | Catálogo principal com 108 skills e coleções organizadas por categoria. |
 | [CURATION.md](CURATION.md) | Critérios para aceitar, rejeitar e revisar novas skills. |
 | [PLANO_IMPLEMENTACAO.md](PLANO_IMPLEMENTACAO.md) | Plano original usado para transformar este repo em catálogo. |
+| [PLANO_CURADORIA_EXAUSTIVA_SKILLS.md](PLANO_CURADORIA_EXAUSTIVA_SKILLS.md) | Próxima fase: busca exaustiva, metadados estruturados e páginas por categoria. |
 
 ## Mapa Do Catálogo
 
@@ -105,3 +106,16 @@ Formato:
 - Separar coleções oficiais, comunitárias e especializadas.
 - Criar checks automáticos para links, duplicatas e descrições longas.
 - Adicionar ranking por utilidade prática e frequência de uso.
+
+## Próxima Fase
+
+O próximo passo planejado é transformar este catálogo em um hub mais pesquisável, com:
+
+- busca mais exaustiva por skills importantes para Claude e Codex;
+- arquivos por categoria em `categories/`;
+- metadados estruturados em `data/skills.yml`;
+- fontes rastreáveis em `data/sources.yml`;
+- scripts de validação para links, duplicatas e consistência;
+- atualização final do README, commit e push obrigatórios.
+
+Plano detalhado: [PLANO_CURADORIA_EXAUSTIVA_SKILLS.md](PLANO_CURADORIA_EXAUSTIVA_SKILLS.md).
