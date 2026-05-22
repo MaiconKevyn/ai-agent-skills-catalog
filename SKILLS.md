@@ -116,6 +116,9 @@ Catálogo curado de skills úteis para Codex, Claude e agentes de IA em projetos
 | create-a-skill | https://github.com/psenger/ai-agent-skills/tree/main/skills/create-a-skill | Skill para criar novas skills seguindo o padrão Agent Skills. |
 | skill-creator | https://github.com/anthropics/skills/tree/main/skills/skill-creator | Skill Claude para criar e melhorar skills reutilizáveis. |
 | workflow-skill-design | https://github.com/trailofbits/skills/tree/main/plugins/workflow-skill-design | Skill para desenhar skills de workflow com escopo e gatilhos claros. |
+| Vercel Agent Skills | https://github.com/vercel-labs/agent-skills | Coleção oficial da Vercel para agentes, apps web e workflows modernos. |
+| Awesome Agent Skills | https://github.com/VoltAgent/awesome-agent-skills | Diretório amplo de skills para Claude Code, Codex, Gemini CLI e Cursor. |
+| antfu skills | https://github.com/antfu/skills | Coleção pessoal e curada de skills agentic reutilizáveis. |
 
 ## AI Engineering
 

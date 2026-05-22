@@ -1,0 +1,72 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI Agent Skills Catalog map</title>
+  <desc id="desc">A hub-and-spoke diagram connecting Codex, Claude, product, design, architecture, security, data, and AI engineering skills.</desc>
+  <rect width="1200" height="520" rx="32" fill="#0B1020"/>
+  <rect x="1" y="1" width="1198" height="518" rx="31" stroke="#27324D" stroke-width="2"/>
+  <path d="M0 410C150 340 240 382 360 312C505 228 584 136 724 172C874 210 944 342 1200 260V520H0V410Z" fill="#101A33"/>
+  <path d="M0 118C172 54 293 76 416 126C571 190 683 218 824 146C950 82 1058 74 1200 104" stroke="#1E8A78" stroke-width="2" stroke-opacity=".45"/>
+  <path d="M56 434C194 376 326 404 438 330C566 246 642 202 778 236C918 271 1006 378 1144 302" stroke="#7C5CFF" stroke-width="2" stroke-opacity=".5"/>
+
+  <g filter="url(#glow)">
+    <circle cx="600" cy="260" r="96" fill="#121B31" stroke="#7C5CFF" stroke-width="2"/>
+    <circle cx="600" cy="260" r="66" fill="#0F172A" stroke="#2DD4BF" stroke-width="1.5"/>
+  </g>
+  <text x="600" y="247" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Agent Skills</text>
+  <text x="600" y="280" text-anchor="middle" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="15">Codex + Claude + Teams</text>
+
+  <g stroke="#334155" stroke-width="1.5">
+    <line x1="526" y1="198" x2="316" y2="126"/>
+    <line x1="674" y1="198" x2="884" y2="126"/>
+    <line x1="505" y1="260" x2="246" y2="260"/>
+    <line x1="695" y1="260" x2="954" y2="260"/>
+    <line x1="526" y1="322" x2="316" y2="394"/>
+    <line x1="674" y1="322" x2="884" y2="394"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g>
+      <rect x="136" y="82" width="214" height="88" rx="18" fill="#111827" stroke="#26344F"/>
+      <text x="243" y="119" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="700">Software</text>
+      <text x="243" y="145" text-anchor="middle" fill="#94A3B8" font-size="13">debug, TDD, review, CI</text>
+    </g>
+    <g>
+      <rect x="850" y="82" width="214" height="88" rx="18" fill="#111827" stroke="#26344F"/>
+      <text x="957" y="119" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="700">AI Engineering</text>
+      <text x="957" y="145" text-anchor="middle" fill="#94A3B8" font-size="13">agents, evals, guardrails</text>
+    </g>
+    <g>
+      <rect x="58" y="216" width="244" height="88" rx="18" fill="#111827" stroke="#26344F"/>
+      <text x="180" y="253" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="700">Product + Agile</text>
+      <text x="180" y="279" text-anchor="middle" fill="#94A3B8" font-size="13">PRD, stories, rituals</text>
+    </g>
+    <g>
+      <rect x="898" y="216" width="244" height="88" rx="18" fill="#111827" stroke="#26344F"/>
+      <text x="1020" y="253" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="700">UX/UI + Browser</text>
+      <text x="1020" y="279" text-anchor="middle" fill="#94A3B8" font-size="13">design, Playwright, visual QA</text>
+    </g>
+    <g>
+      <rect x="136" y="350" width="214" height="88" rx="18" fill="#111827" stroke="#26344F"/>
+      <text x="243" y="387" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="700">Security + Python</text>
+      <text x="243" y="413" text-anchor="middle" fill="#94A3B8" font-size="13">static analysis, testing</text>
+    </g>
+    <g>
+      <rect x="850" y="350" width="214" height="88" rx="18" fill="#111827" stroke="#26344F"/>
+      <text x="957" y="387" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="700">Docs + Data</text>
+      <text x="957" y="413" text-anchor="middle" fill="#94A3B8" font-size="13">PDF, XLSX, analytics</text>
+    </g>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#64748B" font-size="12">
+    <text x="48" y="48">Curated index for practical agent work</text>
+    <text x="986" y="480">Readable links. Clear purpose. Fast adoption.</text>
+  </g>
+
+  <defs>
+    <filter id="glow" x="476" y="136" width="248" height="248" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.49 0 0 0 0 0.36 0 0 0 0 1 0 0 0 .45 0"/>
+      <feBlend in="SourceGraphic" mode="normal"/>
+    </filter>
+  </defs>
+</svg>
+
