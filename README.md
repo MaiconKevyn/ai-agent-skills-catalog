@@ -5,7 +5,7 @@
 <h1 align="center">AI Agent Skills Catalog</h1>
 
 <p align="center">
-  Um hub curado das skills mais úteis para Codex, Claude e agentes de IA em projetos de software, produto, UX/UI, arquitetura e engenharia de IA.
+  A curated hub of the most useful skills for Codex, Claude, and AI agents working across software engineering, product, UX/UI, architecture, and AI engineering.
 </p>
 
 <p align="center">
@@ -15,107 +15,104 @@
   <a href="https://github.com/MaiconKevyn/ai-agent-skills-catalog"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MaiconKevyn/ai-agent-skills-catalog?style=for-the-badge"></a>
 </p>
 
-## Por Que Este Repo Existe
+## Why This Exists
 
-Skills viraram uma camada prática de operação para agentes: elas encapsulam padrões, ferramentas, critérios de decisão e workflows que um agente deve seguir sem reinventar tudo a cada tarefa. O problema é que as skills úteis estão espalhadas entre repositórios oficiais, catálogos comunitários e coleções especializadas.
+Skills have become an operational layer for AI agents. They package workflows, tools, decision rules, and quality standards that an agent can reuse instead of rediscovering the same process on every task.
 
-Este repositório é uma curadoria enxuta para responder rápido:
+The problem is fragmentation. Useful skills are spread across official repositories, community indexes, specialist collections, and platform-specific docs. This repository is a practical index for answering four questions quickly:
 
-- qual skill usar para uma tarefa real;
-- onde está o link público confiável;
-- qual problema aquela skill resolve;
-- quais coleções valem acompanhar.
+- which skill should be used for a real task;
+- where the public source link is;
+- what problem the skill solves;
+- which collections are worth tracking.
 
-## Comece Aqui
+## Start Here
 
-| Arquivo | Para que serve |
+| File | Purpose |
 |---|---|
-| [SKILLS.md](SKILLS.md) | Catálogo principal com 108 skills e coleções organizadas por categoria. |
-| [CURATION.md](CURATION.md) | Critérios para aceitar, rejeitar e revisar novas skills. |
-| [PLANO_IMPLEMENTACAO.md](PLANO_IMPLEMENTACAO.md) | Plano original usado para transformar este repo em catálogo. |
-| [PLANO_CURADORIA_EXAUSTIVA_SKILLS.md](PLANO_CURADORIA_EXAUSTIVA_SKILLS.md) | Próxima fase: busca exaustiva, metadados estruturados e páginas por categoria. |
+| [SKILLS.md](SKILLS.md) | Main catalog with 108 skills and collections organized by category. |
+| [CURATION.md](CURATION.md) | Criteria for accepting, rejecting, and reviewing skills. |
 
-## Mapa Do Catálogo
+## Catalog Map
 
-| Área | Quando usar |
+| Area | Use it for |
 |---|---|
-| Engenharia de Software | Refatoração, debugging, TDD, revisão, GitHub e CI. |
-| Python | Typing, testes, notebooks, análise estática e projetos empacotados. |
-| UX/UI | Design systems, shadcn/ui, Figma, frontend e avaliação visual. |
-| Produto | PRDs, user stories, critérios de aceite, discovery e roadmap. |
-| Scrum Master / Agile | Facilitação, sprint, refinamento, retrospectivas e reuniões. |
-| Arquitetura Limpa | SOLID, APIs, entrypoints, compliance com specs e handoffs técnicos. |
-| Arquitetura de IA | MCP, APIs de LLM, criação de skills e estrutura de projetos agentic. |
-| AI Engineering | Evals, guardrails, observabilidade, MLOps e verificação de agentes. |
-| Segurança | Threat modeling, Semgrep, supply chain, revisão e análise estática. |
-| Browser / E2E | Playwright, screenshots e testes web end-to-end. |
-| Documentos / Office | PDF, DOCX, XLSX, PPTX, Notion e coautoria documental. |
-| Dados / Analytics | CSV, dashboards, instrumentação, experimentos e métricas. |
+| Software Engineering | Refactoring, debugging, TDD, review, GitHub, and CI. |
+| Python | Typing, tests, notebooks, static analysis, and packaged projects. |
+| UX/UI | Design systems, shadcn/ui, Figma, frontend work, and visual review. |
+| Product | PRDs, user stories, acceptance criteria, discovery, and roadmaps. |
+| Agile and Scrum Master | Facilitation, sprint work, refinement, retrospectives, and meetings. |
+| Clean Architecture | SOLID, APIs, entrypoints, spec compliance, and technical handoffs. |
+| AI Architecture | MCP, LLM APIs, skill authoring, and agentic project structure. |
+| AI Engineering | Evals, guardrails, observability, MLOps, and agent verification. |
+| Security | Threat modeling, Semgrep, supply chain, review, and static analysis. |
+| Browser and E2E | Playwright, screenshots, and browser-based end-to-end testing. |
+| Documents and Office | PDF, DOCX, XLSX, PPTX, Notion, and document coauthoring. |
+| Data and Analytics | CSV, dashboards, instrumentation, experiments, and metrics. |
 
-## Repositórios Que Inspiraram A Curadoria
+## Reference Repositories
 
-Referências com forte sinal do ecossistema, verificadas em 2026-05-22.
+High-signal ecosystem references, checked on 2026-05-22.
 
-| Repositório | Sinal | Por que acompanhar |
+| Repository | Signal | Why follow it |
 |---|---:|---|
-| [obra/superpowers](https://github.com/obra/superpowers) | 201k+ stars | Workflows maduros para planejar, testar, revisar e finalizar tarefas agentic. |
-| [anthropics/skills](https://github.com/anthropics/skills) | 138k+ stars | Repositório oficial de skills para Claude. |
-| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 114k+ stars | Referência forte para componentes, design systems e distribuição de código. |
-| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 26k+ stars | Coleção oficial da Vercel para agentes e apps modernos. |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 22k+ stars | Diretório amplo de skills compatíveis com Claude Code, Codex, Gemini CLI e Cursor. |
-| [openai/skills](https://github.com/openai/skills) | 19k+ stars | Catálogo oficial de skills para Codex. |
-| [trailofbits/skills](https://github.com/trailofbits/skills) | 5k+ stars | Skills técnicas para segurança, auditoria e revisão avançada. |
+| [obra/superpowers](https://github.com/obra/superpowers) | 201k+ stars | Mature workflows for planning, testing, reviewing, and finishing agentic development tasks. |
+| [anthropics/skills](https://github.com/anthropics/skills) | 138k+ stars | Official skills repository for Claude. |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 114k+ stars | Strong reference for components, design systems, and code distribution. |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 26k+ stars | Vercel's official collection for agents and modern web apps. |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 22k+ stars | Broad directory of skills compatible with Claude Code, Codex, Gemini CLI, and Cursor. |
+| [openai/skills](https://github.com/openai/skills) | 19k+ stars | Official skills catalog for Codex. |
+| [trailofbits/skills](https://github.com/trailofbits/skills) | 5k+ stars | Technical skills for security, audits, and advanced review workflows. |
 
-## Trilhas Rápidas
+## Quick Paths
 
-| Se você quer... | Abra esta seção |
+| If you want to... | Open |
 |---|---|
-| Publicar código com agente | [Engenharia de Software](SKILLS.md#engenharia-de-software) |
-| Melhorar qualidade Python | [Python](SKILLS.md#python) |
-| Construir interface mais forte | [UX/UI](SKILLS.md#uxui) |
-| Escrever PRD ou user stories | [Produto](SKILLS.md#produto) |
-| Rodar cerimônias e alinhamento | [Scrum Master / Agile](SKILLS.md#scrum-master--agile) |
-| Revisar arquitetura | [Arquitetura Limpa](SKILLS.md#arquitetura-limpa) |
-| Projetar agentes e MCP | [Arquitetura de IA](SKILLS.md#arquitetura-de-ia) |
-| Avaliar sistemas com IA | [AI Engineering](SKILLS.md#ai-engineering) |
-| Checar risco técnico | [Segurança](SKILLS.md#segurança) |
-| Validar app no browser | [Browser / E2E](SKILLS.md#browser--e2e) |
+| Publish code with an agent | [SKILLS.md](SKILLS.md) |
+| Improve Python quality | [SKILLS.md](SKILLS.md) |
+| Build stronger interfaces | [SKILLS.md](SKILLS.md) |
+| Write PRDs or user stories | [SKILLS.md](SKILLS.md) |
+| Run team rituals and alignment | [SKILLS.md](SKILLS.md) |
+| Review architecture | [SKILLS.md](SKILLS.md) |
+| Design agents and MCP tools | [SKILLS.md](SKILLS.md) |
+| Evaluate AI systems | [SKILLS.md](SKILLS.md) |
+| Check technical risk | [SKILLS.md](SKILLS.md) |
+| Validate a web app in the browser | [SKILLS.md](SKILLS.md) |
 
-## Critério Editorial
+## Editorial Standard
 
-Cada entrada deve ser curta, verificável e útil em projeto real. O catálogo evita descrições longas, links mortos e listas genéricas sem contexto. A regra é simples: se uma skill não ajuda um agente ou uma pessoa a executar melhor uma tarefa recorrente, ela não entra.
+Each entry must be short, verifiable, and useful in real project work. The catalog avoids dead links, vague descriptions, and generic lists without context. The rule is simple: if a skill does not help an agent or a person execute a recurring task better, it does not belong in the main catalog.
 
-Leia os critérios completos em [CURATION.md](CURATION.md).
+See the full criteria in [CURATION.md](CURATION.md).
 
-## Como Contribuir
+## How To Contribute
 
-1. Abra [SKILLS.md](SKILLS.md) e encontre a categoria correta.
-2. Adicione uma entrada com nome, link e descrição objetiva.
-3. Confirme que o link é público e que a skill tem documentação suficiente.
-4. Mantenha a descrição em uma frase curta.
+1. Open [SKILLS.md](SKILLS.md) and find the right category.
+2. Add an entry with a name, public link, and objective description.
+3. Confirm the link is public and the skill has enough documentation to review.
+4. Keep the description to one short sentence.
 
-Formato:
+Format:
 
 ```markdown
-| modern-python | https://github.com/trailofbits/skills/tree/main/plugins/modern-python | Skill para práticas modernas de Python, typing, estrutura e segurança. |
+| modern-python | https://github.com/trailofbits/skills/tree/main/plugins/modern-python | Skill for modern Python practices, typing, structure, and security. |
 ```
 
-## Roadmap Curto
+## Short Roadmap
 
-- Adicionar tags por plataforma: Codex, Claude, Cursor, Gemini CLI e MCP.
-- Separar coleções oficiais, comunitárias e especializadas.
-- Criar checks automáticos para links, duplicatas e descrições longas.
-- Adicionar ranking por utilidade prática e frequência de uso.
+- Add platform tags: Codex, Claude, Cursor, Gemini CLI, and MCP.
+- Separate official, community, and specialist collections.
+- Add automated checks for links, duplicates, and long descriptions.
+- Add practical-utility ranking and usage-frequency signals.
 
-## Próxima Fase
+## Next Phase
 
-O próximo passo planejado é transformar este catálogo em um hub mais pesquisável, com:
+The next planned step is to turn this catalog into a more searchable hub with:
 
-- busca mais exaustiva por skills importantes para Claude e Codex;
-- arquivos por categoria em `categories/`;
-- metadados estruturados em `data/skills.yml`;
-- fontes rastreáveis em `data/sources.yml`;
-- scripts de validação para links, duplicatas e consistência;
-- atualização final do README, commit e push obrigatórios.
+- deeper discovery of important Claude and Codex skills;
+- category files under `categories/`;
+- structured metadata in `data/skills.yml`;
+- source tracking in `data/sources.yml`;
+- validation scripts for links, duplicates, and consistency;
+- a final README update, commit, and push.
 
-Plano detalhado: [PLANO_CURADORIA_EXAUSTIVA_SKILLS.md](PLANO_CURADORIA_EXAUSTIVA_SKILLS.md).
