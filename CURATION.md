@@ -1,25 +1,25 @@
-# Critérios De Curadoria
+# Curation Criteria
 
-Uma skill entra no catálogo quando tem link público verificável, utilidade recorrente em projetos e escopo claro.
+A skill belongs in this catalog when it has a verifiable public link, recurring usefulness in real projects, and a clear scope.
 
-## Critérios De Entrada
+## Inclusion Criteria
 
-- Vem de fonte oficial, mantida ou amplamente usada.
-- Resolve um problema recorrente em projetos reais.
-- Pode ser reutilizada em múltiplos contextos.
-- Tem documentação pública suficiente para revisão.
-- Ajuda Codex, Claude ou outro agente a trabalhar com mais consistência.
-- Reduz risco técnico, operacional, de produto ou de qualidade.
+- Comes from an official, maintained, or widely used source.
+- Solves a recurring problem in real projects.
+- Can be reused across multiple contexts.
+- Has enough public documentation for review.
+- Helps Codex, Claude, or another agent work more consistently.
+- Reduces technical, operational, product, or quality risk.
 
-## Critérios De Exclusão
+## Exclusion Criteria
 
-- Link morto ou sem página pública verificável.
-- Descrição vaga ou escopo pouco claro.
-- Skill muito específica para um produto ou stack fora do uso geral.
-- Automação sensível sem orientação mínima de segurança.
-- Duplicação de uma skill melhor documentada.
+- Dead link or no verifiable public page.
+- Vague description or unclear scope.
+- Too specific to a product or stack outside general use.
+- Sensitive automation without minimum safety guidance.
+- Duplicate of a better documented skill.
 
-## Revisão
+## Review
 
-Cada revisão deve checar links, remover duplicatas e manter descrições curtas em PT-BR. Entradas comunitárias devem ser tratadas como não confiáveis até leitura do `SKILL.md`, licença e scripts incluídos.
+Each review should check links, remove duplicates, and keep descriptions short in English. Community entries should be treated as untrusted until their `SKILL.md`, license, and included scripts are reviewed.
 
