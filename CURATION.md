@@ -23,3 +23,10 @@ A skill belongs in this catalog when it has a verifiable public link, recurring 
 
 Each review should check links, remove duplicates, and keep descriptions short in English. Community entries should be treated as untrusted until their `SKILL.md`, license, and included scripts are reviewed.
 
+## Installation Guidance
+
+- Add installation notes for highlighted skills when the original source publishes a command.
+- Prefer the upstream install command over commands copied from aggregator indexes.
+- If a skill is available from multiple sources, qualify the name by source instead of duplicating an ambiguous row.
+- Treat plugins and slash commands as eligible only when they are clearly useful to agent work and have a public installation path.
+- Keep broad discovery indexes separate from original skill sources.

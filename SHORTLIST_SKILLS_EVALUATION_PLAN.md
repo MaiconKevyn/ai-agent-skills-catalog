@@ -21,6 +21,27 @@
 - Validate links, duplicates, and language before committing.
 - Commit and push after the final review.
 
+## Implementation Decision Log
+
+Implemented on 2026-05-22 after verifying repository metadata, skill paths, public pages, install commands, duplicates, language, and links.
+
+| Candidate group | Decision | Result |
+|---|---|---|
+| Addy Osmani Agent Skills pack | `add` | Added as a pack-level Software Engineering entry. |
+| Addy `code-simplification`, `incremental-implementation`, `code-review-and-quality`, `debugging-and-error-recovery`, `api-and-interface-design`, `deprecation-and-migration`, `context-engineering`, `source-driven-development`, `doubt-driven-development`, `planning-and-task-breakdown`, `frontend-ui-engineering`, `browser-testing-with-devtools` | `add` | Added to the closest catalog categories with original GitHub links. |
+| Addy `test-driven-development` | `add-source-qualified` | Added as `addy-test-driven-development` because `test-driven-development` already exists from Superpowers. |
+| Addy `/code-simplify` | `add-install-note-only` | Added as an installation note because it is a command in the Addy pack, not a separate catalog row. |
+| Superpowers `subagent-driven-development` | `add` | Added as a specific workflow entry. |
+| Superpowers `systematic-debugging` | `add-install-note-only` | Already existed; not duplicated. |
+| GStack pack and commands `/review`, `/plan-eng-review`, `/codex`, `/design-review`, `/plan-design-review` | `add` | Added as source-qualified GStack entries. |
+| alirezarezvani pack and `senior-architect`, `api-design-reviewer`, `migration-architect`, `observability-designer`, `pr-review-expert`, `skill-security-auditor` | `add` | Added with original GitHub links and Codex install guidance. |
+| OpenAI `figma-implement-design`, `security-best-practices`, `security-threat-model`, `playwright`, `screenshot` | `add-install-note-only` | Already existed; install notes were added without duplicate rows. |
+| OpenAI `frontend-skill` | `add` | Added from the official skill page with verified install guidance. |
+| Browserbase `ui-test` | `add` | Added as `browserbase-ui-test` with verified official page and install guidance. |
+| `pyright-lsp` plugin | `add` | Added as a plugin entry because the public plugin page and install path resolved. |
+| Google Stitch `design-md`, `react-components`, `shadcn-ui`, `stitch-loop` | `watchlist` | Official pages resolved, but the public GitHub install targets returned 404 during link validation, so they were not added to `SKILLS.md`. |
+| Codex GitHub code review | `watchlist` | Kept out of `SKILLS.md` because it is a platform capability, not a standalone skill with a catalog-ready install path. |
+
 ## Current Catalog Baseline
 
 The current catalog already includes these relevant entries:
@@ -150,7 +171,7 @@ CLAUDE.md
 **Files:**
 - Validate: upstream repositories and current `SKILLS.md`
 
-- [ ] **Step 1: Refresh repository metadata**
+- [x] **Step 1: Refresh repository metadata**
 
 ```bash
 for repo in \
@@ -169,7 +190,7 @@ done
 
 Expected: all repositories resolve. Update any star counts only if the README or catalog mentions them.
 
-- [ ] **Step 2: Export current catalog names**
+- [x] **Step 2: Export current catalog names**
 
 ```bash
 python3 - <<'PY'
@@ -189,7 +210,7 @@ Expected: use this list to identify duplicate names before adding anything.
 **Files:**
 - Validate: upstream skill paths
 
-- [ ] **Step 1: Verify Addy Osmani skill paths**
+- [x] **Step 1: Verify Addy Osmani skill paths**
 
 ```bash
 for path in \
@@ -213,7 +234,7 @@ done
 
 Expected: each path resolves and contains a `SKILL.md` or equivalent skill content.
 
-- [ ] **Step 2: Verify alirezarezvani skill paths**
+- [x] **Step 2: Verify alirezarezvani skill paths**
 
 ```bash
 for path in \
@@ -230,7 +251,7 @@ done
 
 Expected: each path resolves and includes `SKILL.md`.
 
-- [ ] **Step 3: Verify GStack command paths**
+- [x] **Step 3: Verify GStack command paths**
 
 ```bash
 for path in review plan-eng-review codex design-review plan-design-review benchmark cso qa ship
@@ -241,7 +262,7 @@ done
 
 Expected: each command path resolves. If GStack is added as a collection only, individual command entries may remain in installation notes.
 
-- [ ] **Step 4: Verify official and marketplace pages**
+- [x] **Step 4: Verify official and marketplace pages**
 
 ```bash
 python3 - <<'PY'
@@ -276,7 +297,7 @@ Expected: every URL returns a status below 400.
 **Files:**
 - Modify: `SKILLS.md`
 
-- [ ] **Step 1: Assign a decision to each candidate**
+- [x] **Step 1: Assign a decision to each candidate**
 
 Use this decision table:
 
@@ -289,7 +310,7 @@ Use this decision table:
 | `watchlist` | Useful, but source or install path needs stronger verification. |
 | `reject` | Duplicate, unclear, inaccessible, unsafe, or too broad. |
 
-- [ ] **Step 2: Record duplicates**
+- [x] **Step 2: Record duplicates**
 
 At minimum, treat these as duplicates or install-note candidates:
 
@@ -309,7 +330,7 @@ At minimum, treat these as duplicates or install-note candidates:
 - Modify: `README.md` only if the public skill count or roadmap changes
 - Modify: `CURATION.md` only if install-source requirements need to be made explicit
 
-- [ ] **Step 1: Add repository pack entries**
+- [x] **Step 1: Add repository pack entries**
 
 Add or update pack-level entries for:
 
@@ -318,7 +339,7 @@ Add or update pack-level entries for:
 - `alirezarezvani/claude-skills`
 - `ComposioHQ/awesome-claude-skills` as a discovery index if not already present
 
-- [ ] **Step 2: Add selected skill entries**
+- [x] **Step 2: Add selected skill entries**
 
 Add verified, non-duplicate skills from:
 
@@ -328,7 +349,7 @@ Add verified, non-duplicate skills from:
 - OpenAI missing official skills;
 - Browserbase and Google Stitch only if original pages and install paths are verified.
 
-- [ ] **Step 3: Add installation guidance**
+- [x] **Step 3: Add installation guidance**
 
 Add or update a section like this:
 
@@ -352,7 +373,7 @@ Expected: every newly added highlighted skill has installation guidance.
 - Validate: `SKILL_EXPANSION_PLAN.md`
 - Validate: `SHORTLIST_SKILLS_EVALUATION_PLAN.md`
 
-- [ ] **Step 1: Verify English-only content**
+- [x] **Step 1: Verify English-only content**
 
 ```bash
 rg -n "[^\\x00-\\x7F]" .
@@ -360,7 +381,7 @@ rg -n "[^\\x00-\\x7F]" .
 
 Expected: no results, except external names or URLs that intentionally contain non-ASCII characters.
 
-- [ ] **Step 2: Verify links**
+- [x] **Step 2: Verify links**
 
 ```bash
 python3 - <<'PY'
@@ -411,7 +432,7 @@ PY
 
 Expected: `failed=0`.
 
-- [ ] **Step 3: Verify duplicates**
+- [x] **Step 3: Verify duplicates**
 
 ```bash
 python3 - <<'PY'
@@ -450,7 +471,7 @@ Expected: `duplicates=0`.
 - Commit: `README.md` if updated
 - Commit: `CURATION.md` if updated
 
-- [ ] **Step 1: Review status and diff**
+- [x] **Step 1: Review status and diff**
 
 ```bash
 git status --short --branch
@@ -460,7 +481,7 @@ git diff -- SHORTLIST_SKILLS_EVALUATION_PLAN.md SKILLS.md README.md CURATION.md
 
 Expected: only intended files are changed.
 
-- [ ] **Step 2: Stage files explicitly**
+- [x] **Step 2: Stage files explicitly**
 
 ```bash
 git add SHORTLIST_SKILLS_EVALUATION_PLAN.md SKILLS.md README.md CURATION.md
@@ -468,7 +489,7 @@ git add SHORTLIST_SKILLS_EVALUATION_PLAN.md SKILLS.md README.md CURATION.md
 
 Expected: only intended files are staged.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git commit -m "docs: plan shortlist skills evaluation"
@@ -476,7 +497,7 @@ git commit -m "docs: plan shortlist skills evaluation"
 
 Expected: commit succeeds.
 
-- [ ] **Step 4: Push**
+- [x] **Step 4: Push**
 
 ```bash
 git push origin main
@@ -484,7 +505,7 @@ git push origin main
 
 Expected: `main` is updated on GitHub.
 
-- [ ] **Step 5: Confirm remote state**
+- [x] **Step 5: Confirm remote state**
 
 ```bash
 git status --short --branch
@@ -497,13 +518,12 @@ Expected: worktree is clean and all three SHAs match.
 
 ## Acceptance Checklist
 
-- [ ] Every shortlisted repository or pack has been evaluated.
-- [ ] Every skill candidate has a decision: add, add-source-qualified, install-note-only, collection-only, watchlist, or reject.
-- [ ] No existing skill is duplicated without source qualification.
-- [ ] New entries use original source links.
-- [ ] New entries have short English descriptions.
-- [ ] New entries have install commands or explicit installation notes.
-- [ ] Repository content remains English-only.
-- [ ] Link and duplicate checks pass.
-- [ ] Commit and push are completed.
-
+- [x] Every shortlisted repository or pack has been evaluated.
+- [x] Every skill candidate has a decision: add, add-source-qualified, install-note-only, collection-only, watchlist, or reject.
+- [x] No existing skill is duplicated without source qualification.
+- [x] New entries use original source links.
+- [x] New entries have short English descriptions.
+- [x] New entries have install commands or explicit installation notes.
+- [x] Repository content remains English-only.
+- [x] Link and duplicate checks pass.
+- [x] Commit and push are completed.

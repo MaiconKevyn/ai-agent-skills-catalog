@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="SKILLS.md"><img alt="Curated skills" src="https://img.shields.io/badge/curated_skills-108-2dd4bf?style=for-the-badge"></a>
+  <a href="SKILLS.md"><img alt="Curated skills" src="https://img.shields.io/badge/curated_skills-140-2dd4bf?style=for-the-badge"></a>
   <a href="SKILLS.md"><img alt="Categories" src="https://img.shields.io/badge/categories-12-7c5cff?style=for-the-badge"></a>
   <a href="CURATION.md"><img alt="Curation" src="https://img.shields.io/badge/curation-reviewed-0f172a?style=for-the-badge"></a>
   <a href="https://github.com/MaiconKevyn/ai-agent-skills-catalog"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MaiconKevyn/ai-agent-skills-catalog?style=for-the-badge"></a>
@@ -30,7 +30,7 @@ The problem is fragmentation. Useful skills are spread across official repositor
 
 | File | Purpose |
 |---|---|
-| [SKILLS.md](SKILLS.md) | Main catalog with 108 skills and collections organized by category. |
+| [SKILLS.md](SKILLS.md) | Main catalog with 140 skills and collections organized by category. |
 | [CURATION.md](CURATION.md) | Criteria for accepting, rejecting, and reviewing skills. |
 
 ## Catalog Map
@@ -56,12 +56,16 @@ High-signal ecosystem references, checked on 2026-05-22.
 
 | Repository | Signal | Why follow it |
 |---|---:|---|
-| [obra/superpowers](https://github.com/obra/superpowers) | 201k+ stars | Mature workflows for planning, testing, reviewing, and finishing agentic development tasks. |
-| [anthropics/skills](https://github.com/anthropics/skills) | 138k+ stars | Official skills repository for Claude. |
+| [obra/superpowers](https://github.com/obra/superpowers) | 202k+ stars | Mature workflows for planning, testing, reviewing, and finishing agentic development tasks. |
+| [anthropics/skills](https://github.com/anthropics/skills) | 139k+ stars | Official skills repository for Claude. |
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 114k+ stars | Strong reference for components, design systems, and code distribution. |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | 100k+ stars | Opinionated virtual team for planning, design, review, QA, security, release, and Codex second opinion. |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 61k+ stars | Broad Claude skills discovery index for finding candidate skills before source verification. |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 44k+ stars | Production-grade agent skills for spec, planning, implementation, review, simplification, frontend, APIs, and shipping. |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 26k+ stars | Vercel's official collection for agents and modern web apps. |
 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 22k+ stars | Broad directory of skills compatible with Claude Code, Codex, Gemini CLI, and Cursor. |
 | [openai/skills](https://github.com/openai/skills) | 19k+ stars | Official skills catalog for Codex. |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 15k+ stars | Large multi-tool skill library for engineering, product, operations, Codex, Claude Code, and other coding agents. |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | 5k+ stars | Technical skills for security, audits, and advanced review workflows. |
 
 ## Quick Paths
@@ -115,4 +119,3 @@ The next planned step is to turn this catalog into a more searchable hub with:
 - source tracking in `data/sources.yml`;
 - validation scripts for links, duplicates, and consistency;
 - a final README update, commit, and push.
-

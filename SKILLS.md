@@ -18,6 +18,7 @@ Last reviewed: 2026-05-22
 - [Browser / E2E](#browser--e2e)
 - [Documents / Office](#documents--office)
 - [Data / Analytics](#data--analytics)
+- [Installation Notes](#installation-notes)
 
 ## Software Engineering
 
@@ -28,8 +29,18 @@ Last reviewed: 2026-05-22
 | executing-plans | https://github.com/obra/superpowers/tree/main/skills/executing-plans | Skill for executing plans task by task with checkpoints and verification. |
 | systematic-debugging | https://github.com/obra/superpowers/tree/main/skills/systematic-debugging | Skill for debugging with hypotheses, evidence, and reproduction before fixing. |
 | test-driven-development | https://github.com/obra/superpowers/tree/main/skills/test-driven-development | Skill for implementing changes with a red-green-refactor cycle. |
+| subagent-driven-development | https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development | Skill for coordinating independent subagents with review checkpoints during larger engineering work. |
 | requesting-code-review | https://github.com/obra/superpowers/tree/main/skills/requesting-code-review | Skill for requesting structured review before integrating changes. |
 | receiving-code-review | https://github.com/obra/superpowers/tree/main/skills/receiving-code-review | Skill for handling review feedback without applying changes blindly. |
+| Addy Osmani Agent Skills | https://github.com/addyosmani/agent-skills | Production-grade engineering skill pack for specification, planning, incremental implementation, testing, review, simplification, and shipping. |
+| addy-test-driven-development | https://github.com/addyosmani/agent-skills/tree/main/skills/test-driven-development | Source-qualified TDD skill with red-green-refactor, test pyramid guidance, and behavior-first verification. |
+| code-simplification | https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification | Skill for simplifying working code while preserving behavior and reducing unnecessary complexity. |
+| incremental-implementation | https://github.com/addyosmani/agent-skills/tree/main/skills/incremental-implementation | Skill for delivering changes in small verified vertical slices instead of large risky rewrites. |
+| code-review-and-quality | https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality | Skill for reviewing changes across correctness, readability, architecture, security, and performance. |
+| debugging-and-error-recovery | https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery | Skill for reproducing, localizing, reducing, fixing, and guarding against bugs or failing builds. |
+| GStack | https://github.com/garrytan/gstack | Virtual engineering team pack with planning, review, QA, design, security, benchmarking, release, and Codex second-opinion workflows. |
+| gstack-review | https://github.com/garrytan/gstack/tree/main/review | GStack command for staff-engineer review of real diffs, production risks, completeness gaps, and test coverage. |
+| pr-review-expert | https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/pr-review-expert | Skill for systematic pull request review with blast-radius analysis, security scanning, and coverage deltas. |
 | gh-address-comments | https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments | Codex skill for resolving actionable comments in GitHub pull requests. |
 | gh-fix-ci | https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci | Codex skill for investigating and fixing failing GitHub Actions checks. |
 | yeet | https://github.com/openai/skills/tree/main/skills/.curated/yeet | Codex skill for publishing changes with commit, push, and pull request flow. |
@@ -47,6 +58,7 @@ Last reviewed: 2026-05-22
 | static-analysis | https://github.com/trailofbits/skills/tree/main/plugins/static-analysis | Skill for static analysis and code issue investigation. |
 | jupyter-notebook | https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook | Codex skill for working with notebooks, cells, and interactive analysis. |
 | hatch-pet | https://github.com/openai/skills/tree/main/skills/.curated/hatch-pet | Codex skill for Python projects packaged with Hatch. |
+| pyright-lsp plugin | https://claude.com/plugins/pyright-lsp | Claude Code plugin for Pyright-backed Python and TypeScript language-server analysis. |
 
 ## UX/UI
 
@@ -54,7 +66,11 @@ Last reviewed: 2026-05-22
 |---|---|---|
 | shadcn | https://github.com/shadcn-ui/ui/tree/main/skills/shadcn | Skill for using shadcn/ui components with consistent patterns. |
 | frontend-design | https://github.com/anthropics/skills/tree/main/skills/frontend-design | Claude skill for designing front-end interfaces with strong visual focus. |
+| frontend-skill | https://officialskills.sh/openai/skills/frontend-skill | OpenAI skill for composition-first frontend implementation that avoids generic AI-generated interfaces. |
+| frontend-ui-engineering | https://github.com/addyosmani/agent-skills/tree/main/skills/frontend-ui-engineering | Skill for production UI components, state, responsiveness, accessibility, and integration quality. |
 | design-critique | https://github.com/psenger/ai-agent-skills/tree/main/skills/design-critique | Skill for reviewing UI, visual hierarchy, clarity, and design consistency. |
+| gstack-design-review | https://github.com/garrytan/gstack/tree/main/design-review | GStack command for live visual audits, source fixes, and before/after screenshot evidence. |
+| gstack-plan-design-review | https://github.com/garrytan/gstack/tree/main/plan-design-review | GStack command for reviewing design plans before implementation against hierarchy, interaction, and consistency. |
 | figma | https://github.com/openai/skills/tree/main/skills/.curated/figma | Codex skill for general Figma workflows. |
 | figma-implement-design | https://github.com/openai/skills/tree/main/skills/.curated/figma-implement-design | Codex skill for turning Figma designs into implementation. |
 | figma-create-design-system-rules | https://github.com/openai/skills/tree/main/skills/.curated/figma-create-design-system-rules | Codex skill for generating design system rules from Figma. |
@@ -97,7 +113,13 @@ Last reviewed: 2026-05-22
 |---|---|---|
 | solid | https://github.com/ramziddin/solid-skills/tree/main/skills/solid | Skill for applying SOLID, TDD, and clean architecture to code. |
 | arch-lens | https://github.com/psenger/ai-agent-skills/tree/main/skills/arch-lens | Skill for reviewing architecture, coupling, and modularity. |
+| senior-architect | https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/skills/senior-architect | Skill for architecture decisions, trade-offs, system design, dependency analysis, and ADRs. |
+| api-and-interface-design | https://github.com/addyosmani/agent-skills/tree/main/skills/api-and-interface-design | Skill for contract-first APIs, module boundaries, versioning, payload design, and interface ergonomics. |
 | review-api-design | https://github.com/psenger/ai-agent-skills/tree/main/skills/review-api-design | Skill for reviewing API contracts, ergonomics, and consistency. |
+| api-design-reviewer | https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/api-design-reviewer | Skill for reviewing REST APIs, conventions, versioning, breaking changes, and design scorecards. |
+| migration-architect | https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/migration-architect | Skill for zero-downtime migrations, compatibility validation, rollback planning, and stakeholder coordination. |
+| deprecation-and-migration | https://github.com/addyosmani/agent-skills/tree/main/skills/deprecation-and-migration | Skill for safely sunsetting old systems, migrating users, preserving compatibility, and planning rollback. |
+| observability-designer | https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/observability-designer | Skill for production metrics, logs, traces, SLOs, alerting, dashboards, and diagnosis strategy. |
 | spec-to-code-compliance | https://github.com/trailofbits/skills/tree/main/plugins/spec-to-code-compliance | Skill for checking whether implementation follows the specification. |
 | entry-point-analyzer | https://github.com/trailofbits/skills/tree/main/plugins/entry-point-analyzer | Skill for mapping entrypoints and critical system surfaces. |
 | differential-review | https://github.com/trailofbits/skills/tree/main/plugins/differential-review | Skill for differential review focused on introduced changes and risks. |
@@ -118,7 +140,15 @@ Last reviewed: 2026-05-22
 | workflow-skill-design | https://github.com/trailofbits/skills/tree/main/plugins/workflow-skill-design | Skill for designing workflow skills with clear scope and triggers. |
 | Vercel Agent Skills | https://github.com/vercel-labs/agent-skills | Vercel's official collection for agents, web apps, and modern workflows. |
 | Awesome Agent Skills | https://github.com/VoltAgent/awesome-agent-skills | Broad directory of skills for Claude Code, Codex, Gemini CLI, and Cursor. |
+| Composio Awesome Claude Skills | https://github.com/ComposioHQ/awesome-claude-skills | Discovery index for Claude skills, tools, and workflow resources that should be verified at their original source. |
+| alirezarezvani/claude-skills | https://github.com/alirezarezvani/claude-skills | Large multi-tool skill library for Codex, Claude Code, Gemini CLI, Cursor, engineering, product, compliance, and operations. |
 | antfu skills | https://github.com/antfu/skills | Personal curated collection of reusable agentic skills. |
+| context-engineering | https://github.com/addyosmani/agent-skills/tree/main/skills/context-engineering | Skill for curating rules files, session context, and project knowledge so agents use the right information. |
+| source-driven-development | https://github.com/addyosmani/agent-skills/tree/main/skills/source-driven-development | Skill for grounding framework and library decisions in current official documentation. |
+| doubt-driven-development | https://github.com/addyosmani/agent-skills/tree/main/skills/doubt-driven-development | Skill for adversarially reviewing non-trivial decisions before confident but unverified assumptions stand. |
+| planning-and-task-breakdown | https://github.com/addyosmani/agent-skills/tree/main/skills/planning-and-task-breakdown | Skill for decomposing large requests into ordered, verifiable implementation tasks. |
+| gstack-plan-eng-review | https://github.com/garrytan/gstack/tree/main/plan-eng-review | GStack command for engineering-plan review covering data flow, failure modes, security concerns, and tests. |
+| gstack-codex | https://github.com/garrytan/gstack/tree/main/codex | GStack command for cross-model second opinion and Codex review of plans or implementations. |
 
 ## AI Engineering
 
@@ -141,6 +171,7 @@ Last reviewed: 2026-05-22
 | security-best-practices | https://github.com/openai/skills/tree/main/skills/.curated/security-best-practices | Codex skill for applying security best practices in projects. |
 | security-threat-model | https://github.com/openai/skills/tree/main/skills/.curated/security-threat-model | Codex skill for creating threat models and mapping risks. |
 | security-ownership-map | https://github.com/openai/skills/tree/main/skills/.curated/security-ownership-map | Codex skill for mapping owners of risks and security surfaces. |
+| skill-security-auditor | https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/skill-security-auditor | Skill for auditing third-party skills before installation for command injection, exfiltration, prompt injection, and supply-chain risk. |
 | supply-chain-risk-auditor | https://github.com/trailofbits/skills/tree/main/plugins/supply-chain-risk-auditor | Skill for auditing dependency and supply chain risks. |
 | semgrep-rule-creator | https://github.com/trailofbits/skills/tree/main/plugins/semgrep-rule-creator | Skill for creating Semgrep rules that detect unsafe patterns. |
 | insecure-defaults | https://github.com/trailofbits/skills/tree/main/plugins/insecure-defaults | Skill for identifying dangerous defaults in configuration and code. |
@@ -156,6 +187,8 @@ Last reviewed: 2026-05-22
 | playwright-skill | https://github.com/lackeyjb/playwright-skill/tree/main/skills/playwright-skill | Claude skill for writing and running Playwright automations. |
 | webapp-testing | https://github.com/anthropics/skills/tree/main/skills/webapp-testing | Claude skill for testing web applications through browser flows. |
 | screenshot | https://github.com/openai/skills/tree/main/skills/.curated/screenshot | Codex skill for capturing and analyzing interface screenshots. |
+| browser-testing-with-devtools | https://github.com/addyosmani/agent-skills/tree/main/skills/browser-testing-with-devtools | Skill for inspecting live browser runtime state through Chrome DevTools, DOM, console, network, and performance data. |
+| browserbase-ui-test | https://officialskills.sh/browserbase/skills/ui-test | Browserbase skill for browser UI testing workflows with hosted browser automation. |
 
 ## Documents / Office
 
@@ -187,3 +220,19 @@ Last reviewed: 2026-05-22
 | foundation-okr-writer | https://github.com/product-on-purpose/pm-skills/tree/main/skills/foundation-okr-writer | Skill for writing OKRs connected to measurable outcomes. |
 | vault-scribe | https://github.com/psenger/ai-agent-skills/tree/main/skills/vault-scribe | Skill for recording structured knowledge in Markdown vaults. |
 
+## Installation Notes
+
+Install only the skills needed for the active project. The catalog intentionally keeps broad indexes separate from original skill sources.
+
+- Addy Osmani pack: `npx skills add addyosmani/agent-skills`
+- Addy Osmani focused skills: `npx skills add addyosmani/agent-skills --skill <skill-name>`
+- Addy Osmani code-simplify command: install the Addy pack, then use `/code-simplify`.
+- Superpowers focused skills: `npx skills add obra/superpowers --skill <skill-name>`
+- OpenAI focused skills: `npx skills add openai/skills --skill <skill-name>`
+- GStack for Claude Code: `git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup`
+- GStack for Codex: clone GStack and run `./setup --host codex`.
+- alirezarezvani/claude-skills for Codex: `npx agent-skills-cli add alirezarezvani/claude-skills --agent codex`
+- alirezarezvani/claude-skills for Claude Code: `/plugin marketplace add alirezarezvani/claude-skills`
+- OpenAI frontend skill: `npx skills add https://github.com/openai/skills --skill frontend-skill`
+- Browserbase UI test skill: `npx skills add https://github.com/browserbase/skills --skill ui-test`
+- pyright-lsp plugin for Claude Code: `/plugin install pyright-lsp@claude-plugins-official`
